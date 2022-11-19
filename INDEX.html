@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="IMAGENES/WhatsApp Image 2022-11-18 at 9.08.57 PM.jpeg"alt=
+                "img" height="10" width="10">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="IMAGENES/LOGO DC.png" alt="">
+            </div>
+            <h1>Daniel Canelo</h1>
+            <h2>DISEÑADOR GRÁFICO - ILUSTRADOR</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/senseicanela/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.behance.net/oscardcanelo"><i class="fa-brands fa-behance"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Daniel Canelo.</span> Diseñador e ilustrador de la ciudad de Bogotá.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            20-05-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3222623867
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            odaniel.canelog@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Bogotá, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                            <span>ILUSTRACION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                            <span>DIBUJO</span>
+                        </div> 
+                        
+                            
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS -->
+                <div class="col">
+                    <h3>Habilidades técnicas
+                    </h3>
+                    <div class="skill">
+                        <span>Html & Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>InDesign</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato</h4>
+                        <span class="casa">Fundación instituto tecnológico del sur/UNAD</span>
+                        <span class="fecha">2014-2018/ 2019</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Fundación universitaria los libertadores.</span>
+                        <span class="fecha">2020-2023</span>
+                        <p>Diseño Gráfico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicos</h4>
+                        <span class="casa">Google Actívate</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Fundamentos de Marketing Digital</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Laboral</h3>
+                    <div class="item der">
+                        <h4>Sublimación</h4>
+                        <span class="casa">Distrito capital Sublimación y publicidad</span>
+                        <span class="fecha">2021</span>
+                        <p>-Creación de productos personalizados estampados en prendas o productos para merchandising.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseño Gráfico</h4>
+                        <span class="casa">Qingdao Constar trading LTDA Co , sucursal colombia</span>
+                        <span class="fecha">2022</span>
+                        <p>-Diseño de señalética para espacios de trabajo en acrilico.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseño Gráfico</h4>
+                        <span class="casa">Qingdao Constar trading LTDA Co , sucursal colombia</span>
+                        <span class="fecha">2022</span>
+                        <p>-Diseño estructural y gráfico de cajas para productos cerámicos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    
+                        <img src="IMAGENES/RYU.png" alt="">
+                    </a>
+                    <div class="overlay">
+                        <h3>Ilustración Analoga</h3>
+                        <p>tecnicas</p>
+                        <a href="analogo.html"target="_blank">
+                            <img src="IMAGENES/RYU.png" alt="">
+                        </a>
+                        
+                       
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="DIGITAL/geisha.png" alt="">
+                    <div class="overlay">
+                        <h3>Ilustración Digital</h3>
+                        <p></p>
+                        <a href="DIGITAL.html"target="_blank">
+                            <img src="DIGITAL/geisha.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/senseicanela/"><i class="fa-brands fa-instagram "target="_blank"></i></a>
+                <a href="https://www.behance.net/oscardcanelo"><i class="fa-brands fa-behance "target="_blank"></i></a>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
